@@ -1,0 +1,18 @@
+.half-page-img{
+  object-fit: cover;
+  height: 60vh;
+}
+.para-image{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 4vh;
+  color: black;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
