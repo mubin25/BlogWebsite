@@ -3,6 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import pic1 from '../Images/img1.jpg'
 import pic2 from '../Images/img4.jpeg'
 import pic3 from '../Images/img3.jpeg'
+import Card1 from './Card';
 
 const Home = () => {
     const images = [pic1, pic2, pic3];
@@ -24,6 +25,7 @@ const Home = () => {
                 </Carousel.Item>
             ))}
         </Carousel>
+        <Card1/>
         </div>
     </>
   )

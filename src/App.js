@@ -4,9 +4,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './Components/Home';
 import Navbar1 from './Components/Navbar';
 import Tourisim from './Components/Tourisim';
-import Tech from './Components/Tech';
+import Farming from './Components/Farming';
 import Food from './Components/Food';
 import Movie from './Components/Movie';
+import 'animate.css';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
       <Routes>
         <Route path = "/Home" element = {<Home/>}></Route>
         <Route path = "/Tourisim" element = {<Tourisim/>}></Route>
-        <Route path = "/Tech" element = {<Tech/>}></Route>
+        <Route path = "/Farming" element = {<Farming/>}></Route>
         <Route path = "/Movie" element = {<Movie/>}></Route>
         <Route path = "/Food" element = {<Food/>}></Route>
       </Routes>
