@@ -19,8 +19,8 @@ const Home = () => {
                         alt={`Slide ${index}`}
                     />
                     <Carousel.Caption>
-                        <h3>Slide {index + 1}</h3>
-                        <p className = "para-image">This is Beautiful Kashmir in Winters </p>
+                        {/*<h3></h3>*/}
+                        <p className = "para-image">This is Beautiful Kashmir.  </p>
                     </Carousel.Caption>
                 </Carousel.Item>
             ))}

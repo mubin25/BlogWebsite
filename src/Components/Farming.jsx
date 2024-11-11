@@ -1,5 +1,7 @@
 import React from "react";
 import { Container, Card } from 'react-bootstrap';
+import farm1 from '../Images/Farming1.jpg'
+import farm2 from '../Images/Farming2.jpg'
 import 'animate.css';
 
 const Farm = () => {
@@ -11,7 +13,14 @@ const Farm = () => {
         <Card.Title className="text-center mb-3" style={{ fontSize: '2rem', fontWeight: 'bold', backgroundColor:'lightblue' }}>
           Farming in Kashmir
         </Card.Title>
-        <p className="animate__animated animate__fadeInLeft" style={{ fontSize: '1.1rem' }}>
+            <div className=" ">
+              <img
+                src={farm1}
+                alt="Farming kashmir"
+                className="p-3 img-fluid rounded shadow-sm"
+              />
+            </div>
+        <p className="animate__animated animate__fadeInLeft food-para" style={{ fontSize: '1.1rem' }}>
           Farming in Kashmir is central to the region’s economy and cultural
           heritage. Nestled in the Himalayas, Kashmir has a unique climate and
           geography that support diverse agricultural activities, ranging from
@@ -20,7 +29,7 @@ const Farm = () => {
           seasons, with temperate weather and abundant rainfall, making it ideal
           for both traditional and cash crops.
         </p>
-        <p className="animate__animated animate__fadeInRight" style={{ fontSize: '1.1rem' }}>
+        <p className="animate__animated animate__fadeInRight food-para" style={{ fontSize: '1.1rem' }}>
           Key Crops and Agricultural Products Rice and Maize: Rice is a staple
           food and is widely cultivated in the valley’s paddy fields. Maize,
           grown on the hilly slopes, is another essential crop, particularly in
@@ -40,7 +49,15 @@ const Farm = () => {
           pleasing but also contribute to the region’s tourism and local
           markets.
         </p>
-        <p className="animate__animated animate__fadeInLeft" style={{ fontSize: '1.1rem' }}>
+
+        <div className=" ">
+              <img
+                src={farm2}
+                alt="Farming kashmir"
+                className="p-3 img-fluid rounded shadow-sm custom-image-height"
+              />
+            </div>
+        <p className="animate__animated animate__fadeInLeft food-para" style={{ fontSize: '1.1rem' }}>
           Challenges Climate Vulnerability: Unpredictable weather, including
           heavy snowfall and flash floods, can damage crops. Climate change
           poses a growing threat to the region’s agriculture. Infrastructure and
@@ -53,7 +70,7 @@ const Farm = () => {
           pests and diseases, which can spread quickly and damage crops,
           especially high-value horticulture like apples and saffron.
         </p>
-        <p className="animate__animated animate__fadeInRight" style={{ fontSize: '1.1rem' }}>
+        <p className="animate__animated animate__fadeInRight food-para" style={{ fontSize: '1.1rem' }}>
           Government Support and Initiatives To support farmers, the government
           and local organizations provide subsidies for seeds, fertilizers, and
           modern farming equipment. Programs focused on organic farming, crop

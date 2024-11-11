@@ -16,6 +16,7 @@ const Navbar1 = () => {
             <Nav.Link href="/Farming">Farming</Nav.Link>
             <Nav.Link href="/Movie">Movie</Nav.Link>
             <Nav.Link href="/Food">Food</Nav.Link>
+            <Nav.Link href="/Aboutus">About Us</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
