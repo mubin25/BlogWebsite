@@ -9,7 +9,7 @@ const Navbar1 = () => {
     <div>
       <Navbar bg="dark" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Navbar.Brand href="/home">Navbar</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="/home">Home</Nav.Link>
             <Nav.Link href="/Tourisim">Tourisim</Nav.Link>
@@ -17,6 +17,7 @@ const Navbar1 = () => {
             <Nav.Link href="/Movie">Movie</Nav.Link>
             <Nav.Link href="/Food">Food</Nav.Link>
             <Nav.Link href="/Aboutus">About Us</Nav.Link>
+            <Nav.Link href="/SignUp">Sign Up</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

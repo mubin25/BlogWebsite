@@ -10,6 +10,7 @@ import Movie from './Components/Movie';
 import Footer from './Components/Footer'
 import Aboutus from './Components/Aboutus'
 import 'animate.css';
+import SignUp from './Components/SignUp';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path = "/Movie" element = {<Movie/>}></Route>
         <Route path = "/Food" element = {<Food/>}></Route>
         <Route path = "/Aboutus" element = {<Aboutus/>}></Route>
+        <Route path = "/Signup" element = {<SignUp/>}></Route>
       </Routes>
       <Footer/>
     </BrowserRouter>
