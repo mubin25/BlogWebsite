@@ -22,7 +22,7 @@ const Card1 = () => {
   return (
     <>
       <h2 className="p-2 fw-bold">You can explore more Below: </h2>
-      <div className=".container col-sm-12" style={{ display: "flex", justifyContent: "space-evenly" }}>
+      <div className=".container col-m" style={{ display: "flex", justifyContent: "space-evenly" }}>
         <div>
           <Card  style={{ width: "18rem" }}>
             <Card.Img className="img-card" variant="top" src={Food} />
